@@ -28,6 +28,7 @@ def pair_up(L,NL):
 				count0+=1
 		if count0 > len(L)/2:
 			return NL[0]
+			
 		return None
 
 	elif len(NL) == 2 and NL[0] != NL[1]: # there is two cadidates to be majority
